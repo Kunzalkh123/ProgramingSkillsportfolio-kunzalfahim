@@ -2,7 +2,7 @@
 word1 = "Coding"
 word2 = "is"
 word3 ="cool"
-word = "coding"+"is"+"cool"
+word = "coding "+  "is"+ " " +"cool"
        
 print(word)
        

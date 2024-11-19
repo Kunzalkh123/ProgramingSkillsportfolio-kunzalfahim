@@ -1,7 +1,8 @@
 #Exercise 4: Primitive Quiz 
-Capital = input("What is the capital of France? ")
-if Capital().lower() == "Paris".lower():
-    print("Well done! The capital of France is Paris.")
+Country=input("What is the capital of France?")
+Capital="Paris"
+
+if Country.lower()==Capital.lower():
+    print("Correct!",Capital,"is the right answer")
 else:
-    print("Incorrect! The correct answer is Paris.")
-    
+    print("incorrect! The answer is",Capital)

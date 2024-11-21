@@ -6,11 +6,11 @@ while True:
         print("Your answer is correct!")
         break 
     else:
-        print("Your answer is incorrect! Try again!")
+        print("incorrect! Try again!")
 
 #Advanced Requirement:
-
-        maxi_attempts = 5 
+12345
+maxi_attempts = 5 
 correct_pass = '12345' 
 attempts = 0    
 while attempts < maxi_attempts:
@@ -22,6 +22,6 @@ while attempts < maxi_attempts:
         attempts +=1
         remaining_attempts= maxi_attempts - attempts
         if remaining_attempts > 0:
-            print(f"Incorrect answer! You have {remaining_attempts} attempts left.")  
+            print(f"Incorrect! You have {remaining_attempts} attempts left.")  
         else:
             print("You have reached the maximum number of attempts. The authorities have been informed")

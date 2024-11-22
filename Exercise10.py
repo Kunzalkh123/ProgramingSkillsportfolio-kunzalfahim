@@ -16,4 +16,5 @@ def mymainfunction():
     is_even = checknum(num)
     display_result(is_even)
 
+
 mymainfunction()
